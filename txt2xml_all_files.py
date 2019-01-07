@@ -12,7 +12,7 @@ for filename in os.listdir(dir):
 		
 		with open(filename) as f:
 			print(filename)
-			trainfiles = f.readlines()  # 标注数据 格式(filename label x_min y_min x_max y_max)
+			trainfiles = f.readlines()  # 标注数据 格式(label x_min y_min x_max y_max)
  
 		file_names = []
 		tree = ElementTree()
